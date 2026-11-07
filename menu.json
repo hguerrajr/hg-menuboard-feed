@@ -1,0 +1,8 @@
+{
+  "defaultDuration": 15,
+  "screens": {
+    "atv2": [
+      { "type": "image", "url": "http://192.168.0.187:8765/slides/pottstown-thank-you.jpg" }
+    ]
+  }
+}
