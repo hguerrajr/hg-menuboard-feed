@@ -2,7 +2,8 @@
   "defaultDuration": 15,
   "screens": {
     "atv2": [
-      { "type": "image", "url": "http://192.168.0.187:8765/slides/pottstown-thank-you.jpg" }
+      { "type": "image", "url": "http://192.168.0.187:8765/slides/pottstown-thank-you.jpg", "duration": 15 },
+      { "type": "video", "url": "http://192.168.0.187:8765/slides/coalfired-coming-soon.mp4" }
     ]
   }
 }
