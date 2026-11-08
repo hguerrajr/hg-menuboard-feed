@@ -57,7 +57,10 @@
       { "type": "image", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/food-53.jpg", "duration": 10 },
       { "type": "image", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/food-54.jpg", "duration": 10 },
       { "type": "image", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/food-55.jpg", "duration": 10 },
-      { "type": "image", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/food-56.jpg", "duration": 10 }
+      { "type": "image", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/food-56.jpg", "duration": 10 },
+      { "type": "image", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/food-57.jpg", "duration": 10 },
+      { "type": "image", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/food-58.jpg", "duration": 10 },
+      { "type": "video", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/food-video-01.mp4" }
     ],
     "atv2": [
       { "type": "image", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/pottstown-thank-you.jpg", "duration": 15 },
