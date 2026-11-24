@@ -74,6 +74,9 @@
     ],
     "warr-right": [
       { "type": "image", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/warrington-menu-right.png?v=3", "duration": 60 }
+    ],
+    "warr-sony": [
+      { "type": "video", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/hg-non-pizza-ticker.mp4" }
     ]
   }
 }
