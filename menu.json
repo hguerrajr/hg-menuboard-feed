@@ -65,6 +65,9 @@
     "atv2": [
       { "type": "image", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/pottstown-thank-you.jpg", "duration": 15 },
       { "type": "video", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/coalfired-coming-soon.mp4" }
+    ],
+    "warr-left": [
+      { "type": "video", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/hg-pizza-ticker.mp4" }
     ]
   }
 }
