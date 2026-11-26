@@ -80,6 +80,9 @@
     ],
     "bagel": [
       { "type": "video", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/bucks-bagels-ticker.mp4" }
+    ],
+    "pott": [
+      { "type": "video", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/hg-pizza-ticker.mp4" }
     ]
   }
 }
