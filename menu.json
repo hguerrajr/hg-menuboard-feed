@@ -100,7 +100,7 @@
       { "type": "image", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/bucks-menu-1.png", "duration": 300 }
     ],
     "bucks-224": [
-      { "type": "image", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/bucks-menu-4.png", "duration": 300 }
+      { "type": "video", "url": "https://hguerrajr.github.io/hg-menuboard-feed/slides/bucks-bagels-ticker.mp4" }
     ]
   }
 }
