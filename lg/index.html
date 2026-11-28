@@ -6,30 +6,17 @@
 <title>HG Menu Board</title>
 <style>
   html,body{margin:0;height:100%;background:#000;overflow:hidden;cursor:none}
-  .layer{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .8s linear;background:#000}
+  .layer{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s linear;background:#000}
   .layer.on{opacity:1}
-  /* Screen mounted tall but the box outputs wide: turn everything 90° to the left so it fills upright. */
-  #stage{position:absolute;overflow:hidden;-webkit-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-transform:rotate(90deg);transform:rotate(90deg)}
-  #stage .layer{object-fit:cover}
   #msg{position:absolute;left:24px;bottom:20px;color:#888;font:16px sans-serif}
 </style>
 </head>
 <body>
-<div id="stage">
 <img id="a" class="layer" alt="">
 <img id="b" class="layer" alt="">
 <video id="v" class="layer" muted playsinline preload="auto"></video>
 <div id="msg"></div>
-</div>
 <script>
-// Size the turned stage from the real screen size (old webOS browsers misread vw/vh).
-function fit(){
-  var W = window.innerWidth, H = window.innerHeight, st = document.getElementById("stage");
-  st.style.width = H + "px"; st.style.height = W + "px";
-  st.style.left = ((W - H) / 2) + "px"; st.style.top = ((H - W) / 2) + "px";
-}
-window.addEventListener("resize", fit);
-setTimeout(fit, 0); setInterval(fit, 5000);
 // HG Menu Board web player. Same playlist as the TVs: play.html?screen=<list name>
 // Images use "duration" (seconds, default from the file); videos play to the end.
 var FEED = "../menu.json";
